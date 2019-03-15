@@ -4,7 +4,7 @@ import java.util.*;
 public abstract class Node3D {
 	private Stack<Transform> tstack;
 	private Node3D parent;
-	private ArrayList<Node3D> children;
+	public ArrayList<Node3D> children;
 	
 	public Node3D() {
 		tstack = new Stack<Transform>();
