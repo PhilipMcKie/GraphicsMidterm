@@ -17,6 +17,9 @@ public abstract class Node3D {
 		this.children = new ArrayList<Node3D>(Arrays.asList(children));
 	}
 	
+	public void addChildNode(Node3D child) {
+		
+	}
 	
 	public abstract void draw(GL2 gl2);
 	

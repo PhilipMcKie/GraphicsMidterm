@@ -7,6 +7,12 @@ public class SceneGraph {
 	public SceneGraph()
 	{
 		root = null;
+		gl2 = null;
+	}
+	
+	public SceneGraph(GL2 gl2) {
+		root = null;
+		this.gl2 = gl2;
 	}
 	
 	public void Traversal(Node3D node)
@@ -42,7 +48,7 @@ public class SceneGraph {
 		gl2.glTranslatef(x, y, z);
 	}
 	
-	public void Load()
+	public void LoadIdentity()
 	{
 		gl2.glLoadIdentity();
 	}
