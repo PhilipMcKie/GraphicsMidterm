@@ -30,5 +30,28 @@ public abstract class Node3D {
 }
 
 class Transform{
+	GL2 gl2;
+	
+	float[] matrix = new float[16];
+	
+	public Transform() {
+	gl2 = null;	
+	}
+	
+	public Transform(GL2 gl2) {
+		this.gl2 = gl2;
+	}
+	
+	public void translate(int x, int y, int z) {
+		GL2 GLFloat;
+	}
+	
+	public void rotate(float degrees, int x, int y, int z) {
+		//TODO
+	}
+	
+	public void scale(int x, int y, int z) {
+		//TODO
+	}
 	
 }
