@@ -1,11 +1,11 @@
 import com.jogamp.opengl.GL2;
 
-public class sphere extends Node3D{
+public class Sphere extends Node3D{
 	private double radius;
 	private int slices;
 	private int stacks;
 	
-	public sphere(double radius, int slices, int stacks) {
+	public Sphere(double radius, int slices, int stacks) {
 		this.radius = radius;
 		this.slices = slices;
 		this.stacks = stacks;
